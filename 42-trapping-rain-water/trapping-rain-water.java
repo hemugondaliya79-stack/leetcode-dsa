@@ -9,7 +9,7 @@ class Solution {
 
 
         while(lp < rp){
-            if(height[lp] < height[rp]){
+            if(height[lp] <= height[rp]){
                 if(lm <= height[lp]){
                     lm = height[lp];
                 }
